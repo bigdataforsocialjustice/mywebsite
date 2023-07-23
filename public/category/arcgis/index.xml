@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ArcGIS | Academic</title>
+    <link>https://giabarboza&gt;.github.io/category/arcgis/</link>
+      <atom:link href="https://giabarboza>.github.io/category/arcgis/index.xml" rel="self" type="application/rss+xml" />
+    <description>ArcGIS</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 12 May 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://giabarboza&gt;.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>ArcGIS</title>
+      <link>https://giabarboza&gt;.github.io/category/arcgis/</link>
+    </image>
+    
+    <item>
+      <title>Geocoding and Mapping Using ArcGIS Pro, Python and R</title>
+      <link>https://giabarboza&gt;.github.io/post/geocoding-with-arcgis/</link>
+      <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://giabarboza&gt;.github.io/post/geocoding-with-arcgis/</guid>
+      <description>&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
+&lt;p&gt;We often need to geocode our data so that it can be mapped. There are websites that offer ways to incorporate ArcGIS pro, R and Python but the forget some of the details needed to make everything work, which can be frustrating for a new user. So, here is one solution to quickly geocode thousands of records using the integration package.&lt;/p&gt;
+&lt;p&gt;The accessibility of this method is limited, you must have access to arcgis online. Thankfully I have an account through my university. Assuming that you have an account, you must tell ArcGIS Pro where your version of R is located and install the arcgisbinding package via the Options menu item in your ArcGIS Pro software (as shown below). Thankfully, this is straightforward.&lt;/p&gt;
+&lt;p&gt;Then, as mentioned on the ESRI website, the following code will allow you to geocode your data.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(reticulate) #use devtools::install_github(&amp;quot;erikli/reticulate&amp;quot;)
+library(dplyr)
+library(sf)
+library(leaflet)
+library(rgdal)
+library(htmlwidgets)
+library(arcgisbinding)
+arc.check_product()
+library(tidyverse)
+
+use_python(&amp;quot;
+C:/Program Files/ArcGIS/Pro/bin/Python/envs/arcgispro-py3/python.exe&amp;quot;, 
+required = TRUE)
+
+use_condaenv(&amp;quot;ox&amp;quot;)
+arcgis &amp;lt;- import(&amp;quot;arcgis&amp;quot;)
+
+gis &amp;lt;- arcgis$GIS(&amp;quot;http://www.arcgis.com&amp;quot;, 
+&amp;quot;your_login_here&amp;quot;, 
+&amp;quot;your_password_here&amp;quot;)
+
+geocoding &amp;lt;- arcgis$geocoding
+batchgeocode &amp;lt;- geocoding$batch_geocode
+
+myfile &amp;lt;- read.csv(&amp;quot;D:/Research/test_geocode.csv&amp;quot;)
+num_recs &amp;lt;- nrow(myfile)
+addresses &amp;lt;- myfile$ADDRESS
+
+results &amp;lt;- batchgeocode(addresses)
+
+results_df &amp;lt;- tibble(lat = numeric(), long = numeric(), ADDRESS = str_c())
+for (i in 1:length(results)) {
+  x = results[[i]]$location$x
+  y = results[[i]]$location$y
+  add = results[[i]]$address
+  results_df = add_row(results_df, lat=y, long = x, ADDRESS = add)
+  
+}
+
+results_df &amp;lt;- st_as_sf(results_df, coords=c(&amp;quot;long&amp;quot;, &amp;quot;lat&amp;quot;), crs = 4326)
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The problem is that we will want to merge the data with the original dataset for further analysis. Using the method on the ESRI website provides no way to merge the data back unless we use the address field. Before this could be done, I had to clean up the address field as follows:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;results_df$ADDRESS &amp;lt;- str_trim(toupper(results_df$ADDRESS))
+myfile$ADDRESS &amp;lt;- str_trim(toupper(myfile$ADDRESS))
+myfile$ADDRESS &amp;lt;- str_replace_all(myfile$ADDRESS, &amp;quot;CA &amp;quot;, &amp;quot;CALIFORNIA,&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Finally, we can create a nice map with a legend as follows:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;merged_geocoded_dat &amp;lt;- merge(results_df, myfile)
+st_geometry(merged_geocoded_dat) &amp;lt;- merged_geocoded_dat$geometry
+# Create the color palette
+pal &amp;lt;- colorFactor(
+  palette = c(&amp;quot;#141dff&amp;quot;, &amp;quot;#ff0000&amp;quot;, &amp;quot;#00d7ae&amp;quot;),
+  domain = merged_geocoded_dat$CATEGORY
+)
+
+leaflet(merged_geocoded_dat) %&amp;gt;%
+  addProviderTiles(providers$Stamen.Toner) %&amp;gt;%
+  addCircles(popup = ~city, 
+             radius = ~200,
+             color = ~pal(CATEGORY),
+             fillOpacity = 1, 
+             stroke = FALSE) %&amp;gt;%
+  addLegend(&amp;quot;bottomright&amp;quot;, pal = pal, values = ~CATEGORY,
+            opacity = 1)
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Academic</title>
+    <link>https://giabarboza&gt;.github.io/project/</link>
+      <atom:link href="https://giabarboza>.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 27 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://giabarboza&gt;.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Projects</title>
+      <link>https://giabarboza&gt;.github.io/project/</link>
+    </image>
+    
+    <item>
+      <title>Discrimination in the Targeting of Predatory Lending and Concomitant Foreclosures as Predictor of Historic Levels of Wealth Loss</title>
+      <link>https://giabarboza&gt;.github.io/project/example/</link>
+      <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://giabarboza&gt;.github.io/project/example/</guid>
+      <description>&lt;p&gt;Predatory lending and foreclosures exacerbated the racial gap in homeownership and led to historic
+wealth loss; past research lacked the key predatory characteristic and thus underestimates harm. With
+advances in data science, availability of big data, and appropriate statistical and geo-spatial models, the
+project will quantify the unequal wealth loss from predatory lending and estimate causal impact. The
+dataset integrates HMDA, assessor, census, and HUD data, ZTRAX property and voting records. We
+address: (1) the evolution of predatory lending mortgage originations over time and across geographic
+areas; (2) If loans originations had kept their pre-housing bubble and foreclosure crisis trend, what would
+wealth distribution be in areas hardest hit? The causal inference uses Bayesian structural time series
+modeling to predict the counterfactual wealth gap had predatory lending not occurred. An Emergent Hot
+Spot Analysis will identify hot and cold spots to predict spatiotemporal trends.&lt;/p&gt;
+&lt;h2 id=&#34;background-and-research-question&#34;&gt;Background and Research Question&lt;/h2&gt;
+&lt;p&gt;By the early 2000s the United States (US) saw the highest percentages of homeownership in
+history (Kochhar, Fry, and Taylor 2011). But by 2017, the percentage of property owned by Black and
+Indigenous People of Color (BIPOC) in the US was less than it was 100 years earlier (Agyeman and
+Boone 2020) and any early 2000s homeownership gains made by BIPOC had been reversed. This wealth
+reduction was concurrent with the largest real estate bubble in US history, characterized by inflationary
+price increases on homes that incentivized rapid-fire origination of “high cost” mortgages that were
+overpriced relative to the value of the home (Goldstein 2014). But what was the role of predatory lending
+and the longest and by far the worst foreclosure crisis since before the American Revolution in increasing
+economic inequality today?&lt;/p&gt;
+&lt;p&gt;The housing bubble, starting in 2002, followed by the 2008 market crash and then the foreclosure
+crisis of 2010, resulted in significant economic loss to individuals and neighborhoods. According to
+Kochhar, Fry, and Taylor (2011), between 2005 and 2009, the median household wealth for Black, Latino
+and Asian households in the United States dropped by 53%, 66% and 34%, respectively, while the
+median wealth of white households dropped by merely 16%. As the study explained: “developments in
+the housing market are the principal agents of change in household wealth from 2005 to 2009” (Kochhar,
+Fry , and Taylor 2011 p.17) that are largely attributable to predatory lending originations and
+disproportionately impacted working class communities of color, BIPOC and women heads of household
+borrowers. Evidence suggests these practices continue to exert a negative effect on these communities
+today. For example, a 2019 study conducted by the Urban Institute found that the 30% gap between black
+and white home ownership is greater now than before 1968, when housing discrimination was legal
+(Young 2019).&lt;/p&gt;
+&lt;p&gt;Evidence suggests that the home ownership gap and, therefore, wealth divide, between white
+households and households of color has been exacerbated by predatory lending through ongoing wealth stripping of inflated monthly billing as well as high foreclosure rates. For example, among home purchase loans made in 2006, roughly one out of every two loans made to African American (50%) and Latino
+(46%) borrowers were high cost, compared to fewer than one out of five loans made to white borrowers
+(18%) (Ben, Ellen, and Madar 2019). According to Squires (2005), the systematic channeling of
+otherwise qualified minority borrowers into subprime mortgages carrying high costs and risks was one
+form of reverse redlining. At the 2006 peak of the subprime market, 27% of all loan originations were
+subprime, including 49% and 39% of loans to African-Americans and Latinos, respectively (Bocian, Li,
+Reid, and Quercia 2011).&lt;/p&gt;
+&lt;p&gt;Overinflated loan-to-value ratios are the single most important factor leading to default and/or
+foreclosure (Quercia and Stegman 1992). Research has shown that even when loan to value ratios are raised from 90% to 97%, default rates for new homes increase seven-fold. Whereas the foreclosure crisis
+coincided with sharp decreases in household wealth, with and without home equity, for all families,
+regardless of race or ethnicity, research has shown that by 2011 wealth levels for whites began to show
+signs of recovery. The typical Black family, on the other hand, continued to experience severe declines,
+losing an estimated 40% of non-home-equity wealth throughout this time frame (Burd-Sharps &amp;amp; Rasch,
+2015). The amount of wealth lost was and still is directly attributable to the magnitude and timing of the
+housing bubble in different communities: that is, predatory lending began earlier, lasted longer, and was
+more aggressive resulting in proportionately greater loss of wealth.&lt;/p&gt;
+&lt;p&gt;But, what would the wealth gap be had the type of lending, bubble and foreclosures never
+happened? Several studies have attempted to quantify wealth gap differentials across individuals and
+neighborhoods following the foreclosure crisis. Although these studies provide a general understanding of
+how predatory lending practices have targeted low-income persons of color living in distressed
+neighborhoods, they suffer from several methodological and data limitations. First, operational definitions
+of “predatory lending” have not been clearly delineated and distinguished from “subprime lending” as
+the latter can be legal and is not by law prohibited.&lt;/p&gt;
+&lt;p&gt;In addition, operational definitions have conflated
+predatory loans with practices of lenders, even though an entity deemed a “subprime lender” may
+originate both prime and subprime loans (Ho &amp;amp; Pennington-Cross, 2007). Second, different studies have
+weighted loan characteristics differently and, while finding measurable discrimination and negative
+financial consequences, previous studies have not analyzed the loan-to value-ratio , which other studies
+have identified as the most important factor predicting default. The most important limitation of previous
+research, however, pertains to the lack of applied methods to model the causal effect of the housing crisis
+on wealth destruction, which requires a statistical framework that predicts the course of the foreclosure
+crisis, and consequently wealth diminution, by examining what would have occurred had the historical
+levels of predatory lending origination practices never occurred.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Text Mining Child Deaths from the LA Homicide Reports</title>
+      <link>https://giabarboza&gt;.github.io/project/child-deaths/final-web-scrap-medium/</link>
+      <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://giabarboza&gt;.github.io/project/child-deaths/final-web-scrap-medium/</guid>
+      <description>&lt;img src=&#34;https://github.com/elisegia/coroner_data/blob/master/Screen%20Shot%202020-04-13%20at%202.07.09%20PM.png?raw=true&#34; /&gt;
+&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
+&lt;p&gt;The new documentary called &amp;ldquo;The Trials of Gabriel Fernandez&amp;rdquo; brings to the forefront the horrendous abuse that children in Los Angeles County and elsewhere endure at the hands of their caregivers. The documentary is a six-part miniseries about the 2013 murder of Gabriel Fernandez, an 8-year old Palmdale boy, that aired on Netflix February, 2020. In 2013, Gabriel Fernandez died in the neighborhood of LA county called Palmdale. For years, Gabriel was abused by his mother and her boyfriend. The abuse included being beaten, shot with a BB gun, smothered with pepper spray, made to wear girl’s clothes to school, forced to eat his own vomit, and locked in a cabinet with a sock stuffed in his mouth. His biological father was incarcerated previously. From 2003 – 2012 over 60 complaints were filed leading to 8 investigations by Child Protective Services. His mother and her boyfriend were given life sentences for his death. The social workers were charged with felony child abuse and falsifying public documents.&lt;/p&gt;
+&lt;p&gt;The case of Gabriel Fernandez demonstrates the complexity of the risk factors and the profound psychological impact that fatal child maltreatment has on members of the community. It also highlights aspects of our social, legal and criminal justice systems that are in desperate need of reform. Gabriel’s teacher, family and even the prosecutor discussed the psychological toll it took on them. Apparently, their pleas for help from Child Protective Services were of no avail.&lt;/p&gt;
+&lt;p&gt;What first piqued my interest about this case is that it happened again, about 5 years later, when 4-year old Anthony Alvalos was murdered 15 minutes from Garbiel’s home. The cases were almost identical, even regarding the fact that Anthony’s parents thought he, too, was gay.&lt;/p&gt;
+&lt;h2 id=&#34;my-work&#34;&gt;My Work&lt;/h2&gt;
+&lt;p&gt;As a researcher of child abuse and neglect, I have known about the Gabriel Fernandez case for years. My own work explores the structural aspects of child welfare across time and space. If I could boil this work down to one central message it would be that neighborhood characteristics, in addition to the characteristics of children and families, are critical components of child maltreatment prevention. Nevertheless, the characteristics of neighborhoods are often overlooked in preventive interventions. The characteristics of neighborhoods are important to understand for many reasons. One of the most important reasons is because they reflect the structural components of race and class and how they play themselves out in the area of child abuse.&lt;/p&gt;
+&lt;h2 id=&#34;the-problem&#34;&gt;The Problem&lt;/h2&gt;
+&lt;p&gt;One difficulty that I have encountered in my research is the lack of data on child abuse and neglect, particularly that which pertains to child homicides. This has forced me to think outside the box about data and data collection efforts. As a methodologist, as well, I understand full well that innovative methods of machine learning are going to be an important component of applied research. Whereas it is relatively easy to give answers to well-structured questions, when there is no structure to the data standard statistical analyses are inapplicable. Unstructured data makes up 80-90% of all data produced by organizations (Holzinger, Stocker et al., 2013) including police reports, court documents and human service organizations. In order to understand patterns in such data, machine learning algorithms such as text mining and topic modeling can help given meaning to narrative, unstructured text. Therefore, understanding the power of data science, including web scraping and text mining, is a critical part of developing a holistic approach to child protection. In this first article, I will illustrate how I created a dataset of all child homicides in Los Angeles County by scraping the Los Angeles Times Homicide report located &lt;a href=&#34;https://homicide.latimes.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The first step (see figure 1) in this project was to collect geospatial data on child homicides.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;https://github.com/elisegia/coroner_data/blob/master/image.png?raw=true&#34; /&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;em&gt;Figure 1. Diagram of the Research Process&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;preliminaries&#34;&gt;Preliminaries&lt;/h2&gt;
+&lt;p&gt;I am using Python to perform the web scraping, data cleaning and mapping. Before you begin, make sure you have the latest version of Python installed on your computer. I used homebrew for the installation and it is straghtforward if you follow the steps listed here. Next, in order to scrape the website, you must make sure to install the following packages. To do so, you can type the following in the terminal window on a Mac or Unix machine:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;pip3 install [package.name]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Below are the packages I used for the webscraping.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;options(width = 300)
+import pandas as pd  
+from pandas import ExcelWriter
+pd.options.mode.chained_assignment = None 
+# see article how-to-deal-with-settingwithcopywarning-in-pandas
+
+import urllib
+from selenium.webdriver.support.ui import WebDriverWait
+
+import numpy as np
+import urllib
+from urllib.parse import urljoin
+
+
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.chrome.options import Options
+import time
+from bs4 import BeautifulSoup as bs
+import requests
+import re
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;data-extraction&#34;&gt;Data Extraction&lt;/h2&gt;
+&lt;p&gt;To understand the process, first go to the LA Times website and right under the map there is a search feature. Click the &amp;lsquo;More&amp;rsquo; button to perform an advanced search. Click the down arrow next to the box that says &amp;lsquo;Last 12 months&amp;rsquo; and select &amp;lsquo;All years&amp;rsquo; (which is the last option). Then click the down arrow next to the box that says &amp;lsquo;Age&amp;rsquo; and select 0-5. This search will result in all homicides to children under the age of 6 years old spanning 2000 - 2020. Some of the results are shown in figure 3.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Selecting the Cases&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Results&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;https://github.com/elisegia/coroner_data/blob/master/Picture1.png?raw=true&#34; /&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;https://github.com/elisegia/coroner_data/blob/master/Picture2.png?raw=true&#34; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;em&gt;Figure 2. Advanced Search Feature&lt;/em&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;em&gt;Figure 3. Search Results&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;If you go to the L.A. Times website, you will notice that the page loads dynamically. Therefore, flow is to wait for the webpage to load, grab the data, then simulate scrolling down the page in order to grab the next few homicides, and repeat until all of the homicide cases are downloaded.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;chrome_options = Options()
+chrome_options.add_argument(&#39;disable_infobars&#39;)
+
+# Start the WebDriver and load the page
+wd = webdriver.Chrome(options=chrome_options)
+wd.delete_all_cookies()
+wd.set_page_load_timeout(30)
+
+wd.get(&#39;https://homicide.latimes.com/age/0/year/all&#39;)
+time.sleep(20)
+
+html_page = wd.page_source
+soup = bs(html_page, &#39;lxml&#39;)
+result1 = soup.find_all(&#39;article&#39;, attrs={&#39;post-teaser row&#39;})
+
+last_height = 0
+
+while True:
+
+    wd.execute_script(&amp;quot;window.scrollTo(0, document.body.scrollHeight)&amp;quot;)
+    time.sleep(3)
+    
+    html_page = wd.page_source
+    soup2 = bs(html_page, &#39;lxml&#39;)
+    
+    time.sleep(2)
+   
+    #break condition
+    new_height = wd.execute_script(&amp;quot;return document.body.scrollHeight&amp;quot;)
+    if new_height == last_height:
+        break
+    last_height = new_height
+    
+results = soup2.find_all(&#39;div&#39;, attrs={&#39;post-teaser row&#39;})
+
+wd.quit()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;all_deaths_under_6 = result1 + results
+test = soup2.find_all(&#39;div&#39;, attrs={&#39;post-teaser row&#39;})
+test1 = soup2.find_all(&#39;article&#39;, attrs={&#39;post-teaser row&#39;})
+all_deaths_under_6_div = test + test1
+print 
+(&#39;There were {} child homicides of children under 6 in LA County since 1/1/2000&#39;
+.format(str(len(all_deaths_under_6_div))))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;There were 471 child homicides of children under 6 in LA County since 1/1/2000
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;options(width = 300)
+all_deaths_under_6_div[0] 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&amp;quot;post-teaser row&amp;quot;&amp;gt;
+&amp;lt;aside class=&amp;quot;span2 offset1 hidden-phone&amp;quot;&amp;gt;
+&amp;lt;img class=&amp;quot;post-list-thumb&amp;quot; src=&amp;quot;https://api.mapbox.com/styles/v1/mapbox/streets-v11/static/url-https%3A%2F%2Fdxnhdpa68jufb.cloudfront.net%2Fstatic%2Fhomicide%2Fimg%2Fmarker.png(-118.110225684,34.0201045958)/-118.110225684,34.0201045958,12,0,0/135x135?access_token=pk.eyJ1IjoibGF0aW1lcyIsImEiOiJjajhvcXRraGUwNnlwMzNyczR3cTBsaWh1In0.0cPKLwe2A0ET4P5CtWSiLQ&amp;quot;/&amp;gt;
+&amp;lt;div class=&amp;quot;post-list-badge&amp;quot;&amp;gt;
+                Died on
+                &amp;lt;div class=&amp;quot;death-date&amp;quot;&amp;gt;Aug. 6&amp;lt;/div&amp;gt;
+&amp;lt;ul class=&amp;quot;badge-location&amp;quot;&amp;gt;
+&amp;lt;li&amp;gt;
+&amp;lt;a href=&amp;quot;/neighborhood/montebello/year/all&amp;quot;&amp;gt;
+                            Montebello
+                        &amp;lt;/a&amp;gt;
+&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;1200 W. Victoria Ave.&amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
+&amp;lt;/div&amp;gt;
+&amp;lt;/aside&amp;gt;
+&amp;lt;article class=&amp;quot;span8 post-list-content&amp;quot;&amp;gt;
+&amp;lt;hgroup&amp;gt;
+&amp;lt;h2&amp;gt;&amp;lt;a href=&amp;quot;/post/unknown-fetus/&amp;quot;&amp;gt;Baby Acosta
+&amp;lt;/a&amp;gt;&amp;lt;/h2&amp;gt;
+&amp;lt;p class=&amp;quot;byline visible-desktop&amp;quot;&amp;gt;By &amp;lt;span class=&amp;quot;author&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;mailto:jerome.campbell@latimes.com&amp;quot;&amp;gt;Jerome Campbell&amp;lt;/a&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;post-date&amp;quot;&amp;gt;Aug. 6, 2017&amp;lt;/p&amp;gt;
+&amp;lt;/hgroup&amp;gt;
+&amp;lt;div class=&amp;quot;body&amp;quot;&amp;gt;
+&amp;lt;p&amp;gt;Baby Acosta, a 15-week-old fetus, died Sunday, Aug. 6, after its mother was shot in the 1200 block of West Victoria Avenue in Montebello, according to Los Angeles County coroner’s records.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Montebello police found the mother, &amp;lt;a href=&amp;quot;http://homicide.latimes.com/post/acosta-roxann/&amp;quot;&amp;gt;Roxann Felicia Acosta&amp;lt;/a&amp;gt;, a 28-year-old Latina, suffering from a gunshot wound at a residence about 10 p.m., according to Sgt. Marc Marty. She was pronounced dead at the scene at 10:22 p.m., according to coroner’s records. &amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Detectives thought Acosta was killed by her husband, Christopher Michael Diaz, 26. The two were estranged, Marty said, but had spent the day together before ending up at Diaz’s mother’s house in Montebello.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Acosta and Diaz had an argument, and witnesses heard gunshots, Marty said. Diaz’s mother was in the house but in another room; other people also were in the home.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Diaz fled, and no weapons were found at the ...&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;a href=&amp;quot;/post/unknown-fetus/&amp;quot;&amp;gt;Continue reading »&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;/div&amp;gt;
+&amp;lt;/article&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
+&lt;p&gt;There were 471 child homicides during the period. The code above grabbed all of the data that is on the website. The following code parses the text so that it can be stored as data in a data frame. To do so, it is necessary to find all of the unlinked lists (ul&amp;rsquo;s) with class label &amp;lsquo;badge-location&amp;rsquo; to store the child&amp;rsquo;s name, death date, spatial coordinates (which are located in the tag for the image source, as well as the race, gender, age and cause of death listed by the medical-examiner, coroner. Finally, in order to perform textual analysis (e.g., Latent Dirichlet Allocation modeling) the code grabs the description of the details surrounding the death as well as the LA Times reporting of the death.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;options(width = 800)
+BASE_URL = &#39;https://homicide.latimes.com/&#39;
+
+url = []
+uls = []
+clist = []
+cname = []
+b = []
+c = []
+d = []
+e = []
+f = []
+g = []
+
+j=0
+for r in all_deaths_under_6_div:
+
+    containers = r.findAll(&amp;quot;ul&amp;quot;,{&amp;quot;class&amp;quot; : lambda L: L and L.startswith(&#39;badge-location&#39;)})   
+    #Find all ul with class: badge-location
+    
+    for container in containers: 
+        c_names = containers[j].findAll(&amp;quot;li&amp;quot;)
+
+        for i in range(len(c_names)):
+            c_name = c_names[0]
+            c_mod_name = c_name.text.split(&#39;,&#39;)
+            c_mod_name = [item.replace(&amp;quot;\n&amp;quot;, &amp;quot;&amp;quot;) for item in c_mod_name]
+            c_mod_name = [x.strip(&#39; &#39;) for x in c_mod_name]
+            i +=1    
+        
+        cname = c_mod_name
+
+    death_date = r.find(&#39;div&#39;, &#39;death-date&#39;).text.strip() if r.find(&#39;div&#39;, &#39;death-date&#39;).text.strip() is not None else &#39;&#39;
+    name = r.find(&amp;quot;h2&amp;quot;).text  if r.find(&amp;quot;h2&amp;quot;).text  is not None else &#39;&#39;
+    name = name.replace(&amp;quot;\n&amp;quot;, &amp;quot;&amp;quot;)
+
+    try:
+        coords =  r.img[&#39;src&#39;].split(&amp;quot;/&amp;quot;)[8] 
+    except IndexError:
+        coords = &#39;&#39;
+        pass
+    except TypeError:
+        coords = &#39;&#39;
+        pass
+
+    post_date = r.find(&#39;p&#39;, &#39;post-date&#39;).text.strip() if r.find(&#39;p&#39;, &#39;post-date&#39;).text.strip() is not None else &#39;&#39;
+    race = r.find(&amp;quot;a&amp;quot;, href=re.compile(&amp;quot;race&amp;quot;)).text.strip() if r.find(&amp;quot;a&amp;quot;, href=re.compile(&amp;quot;race&amp;quot;)) is not None else &#39;&#39;
+    gender = r.find(&amp;quot;a&amp;quot;, href=re.compile(&amp;quot;gender&amp;quot;)).text.strip() if r.find(&amp;quot;a&amp;quot;, href=re.compile(&amp;quot;gender&amp;quot;)) is not None else &#39;&#39;
+    cause = r.find(&amp;quot;a&amp;quot;, href=re.compile(&amp;quot;cause&amp;quot;)).text.strip() if r.find(&amp;quot;a&amp;quot;, href=re.compile(&amp;quot;cause&amp;quot;))  is not None else &#39;&#39;
+    s_descript = r.find(&#39;div&#39;, &#39;body&#39;).text.strip() if r.find(&#39;div&#39;, &#39;body&#39;).text.strip() is not None else &#39;&#39;
+
+    a = r.find(&#39;a&#39;, href=re.compile(&amp;quot;post&amp;quot;))
+    url = urljoin(BASE_URL, a.attrs[&#39;href&#39;])
+    soup = bs(urllib.request.urlopen(url).read())
+    title = soup.find(&#39;section&#39;, class_=&amp;quot;body&amp;quot;)
+
+    article_text = &#39;&#39;
+    article = soup.find(&#39;section&#39;, class_=&amp;quot;body&amp;quot;).findAll(&#39;p&#39;)
+    
+    for element in article:
+        article_text += &#39;\n&#39; + &#39;&#39;.join(element.findAll(text = True))
+    article_text = article_text.replace(&amp;quot;\n&amp;quot;, &amp;quot;&amp;quot;)
+
+    data = soup.find(&#39;ul&#39;, class_=&amp;quot;aspects&amp;quot;)
+    
+    for d in data: 
+        lis = data.findAll(&#39;li&#39;)
+        
+        for k in range(len(lis)):
+            try:
+                aname = lis[2]
+                t = [lis[0].text, lis[1].text,lis[2].text,lis[3].text,lis[4].text, lis[5].text, lis[6].text]
+                myString = &amp;quot;::&amp;quot;.join(t )
+                myString.replace(&#39; &#39;, &#39;0&#39;)
+                a,b,c,d,e,f,g = myString.split(&#39;::&#39;)
+                k +=1    
+            except IndexError:
+                pass
+            
+    clist.append((cname, death_date, post_date, name, race, gender, cause, coords, s_descript, article_text, c, d, e, f, g, a, b))
+
+j+=1
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In order to see the article text (stored in position 9) for the 10th record type the following:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;clist[10][9]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;&#39;Jennabel Anaya, a 4-year-old Latina, died Sunday, Aug. 7, after she was shot in the intersection of East 9th Street and Locust Avenue in Long Beach, according to Los Angeles County coroner’s records.\xa0City and county authorities announced Friday a $40,000 reward for information leading to the arrest and conviction of the person who killed Anaya and her mother, Carina Mancera, 26.\xa0The girl was walking home from the grocery store with her mother and father, Luis Anaya, on Aug. 6, when a man approached the family about 10:20 p.m. and began shooting, according to Long Beach Police Sgt. Robert Woods.\xa0Mancera, 26, was pronounced dead at the scene at 10:27 p.m., according to coroner’s records. Jennabel was taken to a nearby hospital, where she was pronounced dead at 12:01 a.m. Aug. 7, according to coroner’s records.\xa0Luis Anaya escaped unscathed. During a memorial at the shooting site Sunday, he and others recounted what they heard and saw that evening.\xa0Anaya told The Times\xa0he didn’t recognize the man,\xa0whose face was “all covered up.” The two had only briefly locked eyes by the time Anaya saw the gun.&amp;quot;I couldn\&#39;t make his face,&amp;quot; he said. &amp;quot;When I tried to look at him, he shot at me.&amp;quot;As mother and daughter lay bleeding in the street, Anaya screamed so loudly that neighbor Robert Navarro said he thought the couple was having an argument.\xa0Navarro ran out of his home and into the intersection, where he found Anaya desperately trying to comfort his mortally wounded girlfriend and daughter.“The baby … she still had her eyes open,” Navarro said. “He was trying to comfort her by calling the grandmother and the grandmother spoke to the baby on the phone.”Twelve hours later, the little girl’s grandmother was standing in the same intersection, screaming out in Spanish and English, asking over and over why her daughter and granddaughter were dead.The shooter fled on foot, heading east. Investigators had yet to determine a motive or identify a suspect in the slaying, leaving neighbors to wonder why anyone would open fire on a young woman and her child.“How are you gonna see a family walking and go crazy?” asked Gabriel Sanchez, 26, a longtime friend of Mancera. “Why would you shoot a child? The child is just living life, innocent.”As far as their friends knew, Anaya and Mancera didn’t have any enemies. Anaya works in construction, and friends said the couple weren’t involved gangs. The two grew up in Long Beach, friends said, and began dating roughly five years ago.Sanchez remembered Mancera as a mischievous and friendly presence when they met at Long Beach’s Washington Middle School more than a decade ago. “She was a real cool girl. No drama with anybody,” she said. “She didn’t have problems with anybody for someone to do this to her and her daughter.”\xa0Anaya and Mancera lived in an apartment on Locust Avenue , a brief walk from the intersection where the shooting took place. The couple’s next-door neighbor, 38-year-old Matt Milewski said he heard four gunshots in total -- an initial blast, then three shots in quick succession.Milewski said gunshots and violence are rare in the neighborhood, which sits less than two miles from the waterfront and just outside Long Beach’s downtown area.At least two dozen people spent several hours Sunday crowded around the small memorial at the site of the shooting, placing votive candles and flowers at the base of the stop sign where Mancera and her daughter were killed. A pastor arrived to lead the group in a prayer, and several people made repeated and futile attempts to console Mancera’s mother, who covered her mouth and nearly fell to the ground as she approached the intersection.Juan Jimenez, a longtime friend of Anaya, said the two had been working construction jobs together in recent years. He couldn’t explain why anyone would want to hurt his friend\&#39;s family, and said Anaya often talked about how safe their neighborhood was.“We were talking about this area and he was like, ‘It’s cool. Nobody messes with me,’” Jimenez said.Navarro said Jennabel was looking forward to September, when she was supposed to start her first year in school. “She got a backpack and she was very happy for the backpack. And then this happens,” Navarro said, tearing up. “So she won’t be making it to school.”Homicide Sgt. Woods dismissed notions that the shooting was linked to gang activity and\xa0expressed disappointment that police tip lines had not been flooded with calls.“I was a little disheartened by that,” he said. “I thought we would just have an influx of information coming from the public. We haven’t had it yet.”Woods would not comment on the type of weapon used. “I will say it was at close range and very brutal,” he said.Police have recovered surveillance footage, but Woods said that alone “is not going to solve our case” and urged more witnesses to come forward.\xa0Though the number of homicides in Long Beach has not increased significantly this year, violent crime across the city jumped by 8% in the first six months of 2016. Mayor Robert Garcia cautioned that crime in the city was still down dramatically over the last decade, and he attributed the recent surge in Long Beach to a larger statewide trend.“We know that violent crime has been increasing in most California cities, especially the larger ones, and so we’re looking at that,” he said. “We’re putting more resources to ensure the community is safe.”Anyone with information should call Long Beach homicide Dets. Scott Lasch and Michael Hubbard at (562) 570-7244. Those wishing to remain anonymous should call\xa0Crime Stoppers at (800) 222-8477.\xa0\xa0Contact\xa0the Homicide Report. Follow\xa0@latimeshomicide\xa0on Twitter.\xa0Do you have information to share about the life of                     Jennabel Anaya                    ? The Homicide Report needs your help. Please fill out this form or e-mail us at homicidereport@latimes.com.&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;It is obvious from the text that the baby is a newborn who was beaten to death. The cause of death listed in the coroner&amp;rsquo;s report is blunt force trauma, however it should be obvious that this is a case of severe child physical abuse.&lt;/p&gt;
+&lt;p&gt;The data needs to be cleaned and preprocessed prior to visualization. The code below cleans a few of the columns that will serve as preliminary analyses.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;df = pd.DataFrame(clist, columns=[&#39;c_name&#39;, &#39;death_date&#39;, &#39;post_date&#39;, &#39;name&#39;, &#39;race&#39;, &#39;gender&#39;, &#39;cause&#39;, &#39;coords&#39;, &#39;s_descript&#39;, &#39;article_text&#39;, &#39;c&#39;, &#39;d&#39;, &#39;e&#39;, &#39;f&#39;, &#39;g&#39;, &#39;a&#39;, &#39;b&#39;])
+df[&#39;post_date&#39;] = df.post_date.str.replace(&#39;Posted&#39; , &#39;&#39;)
+df[&#39;causes&#39;] = df.e.str.replace(&#39;Cause:&#39; , &#39;&#39;)
+df[&#39;brace&#39;] = df.f.str.replace(&#39;Race/Ethnicity:&#39; , &#39;&#39;)
+
+df[&#39;hood&#39;] = df[&#39;a&#39;].str.replace(&#39;href&#39;,&#39;&#39;)
+
+df[&#39;post_date&#39;] = pd.to_datetime(df[&#39;post_date&#39;])
+df[&#39;year&#39;], df[&#39;month&#39;], df[&#39;day&#39;] = df[&#39;post_date&#39;].apply(lambda x: x.year), df[&#39;post_date&#39;].apply(lambda x: x.month), df[&#39;post_date&#39;].apply(lambda x: x.day)
+
+df[[&#39;y&#39;, &#39;x&#39;]] = df[&#39;coords&#39;].str.split(&#39;,&#39;, n = 1, expand = True)
+df[[&#39;x&#39;, &#39;d&#39;]] = df[&#39;x&#39;].str.split(&#39;)&#39;, n = 1, expand = True)
+
+df.apply(lambda x:&#39;%s, %s&#39; % (x[&#39;death_date&#39;],x[&#39;year&#39;]),axis=1)
+
+df[[&#39;d1&#39;, &#39;y&#39;]] = df[&#39;y&#39;].str.split(&#39;(&#39;, n = 1, expand = True)
+df.to_csv(&#39;child_deaths_all_0to5_covid.csv&#39;, sep=&#39;,&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from src import maps
+from src import charts
+#from src import geocoder
+from src import transform
+from src import calculate
+#from googlegeocoder import GoogleGeocoder
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;charts.bar(df.year.value_counts(), figwidth=12)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://giabarboza>.github.io/uploads/Final%20web%20scrap%20medium_files/Final%20web%20scrap%20medium_14_0.png&#34; alt=&#34;png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;As the chart above shows, child homicides peaked in 2001 and an overall downward trend emerges over the twenty year period. The year 2020 only contains data up through April.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;charts.bar(df.hood.value_counts().nlargest(10), figwidth=12)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://giabarboza>.github.io/uploads/Final%20web%20scrap%20medium_files/Final%20web%20scrap%20medium_16_0.png&#34; alt=&#34;png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Long Beach, Inglewood and Compton have the most child homicides across the county. These 10 neighborhoods comprise about 1/4 of all child homicides. As we will see below, there are many neighborhoods that have had no child homicides for the whole 20 year period.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;df = df[[&#39;causes&#39;,&#39;x&#39;, &#39;y&#39;, &#39;brace&#39;]]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;df1 = df[df[&#39;brace&#39;].str.contains(&amp;quot;Black&amp;quot;) | df[&#39;brace&#39;].str.contains(&#39;White&#39;)| df[&#39;brace&#39;].str.contains(&#39;Latino&#39;)| df[&#39;brace&#39;].str.contains(&#39;Asian&#39;)] 
+df1
+&lt;/code&gt;&lt;/pre&gt;
+&lt;div&gt;
+&lt;style scoped&gt;
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+&lt;pre&gt;&lt;code&gt;.dataframe tbody tr th {
+    vertical-align: top;
+}
+
+.dataframe thead th {
+    text-align: right;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;/style&gt;&lt;/p&gt;
+&lt;table border=&#34;1&#34; class=&#34;dataframe&#34;&gt;
+  &lt;thead&gt;
+    &lt;tr style=&#34;text-align: right;&#34;&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;causes&lt;/th&gt;
+      &lt;th&gt;x&lt;/th&gt;
+      &lt;th&gt;y&lt;/th&gt;
+      &lt;th&gt;brace&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2&lt;/th&gt;
+      &lt;td&gt;Other&lt;/td&gt;
+      &lt;td&gt;34.0735139958&lt;/td&gt;
+      &lt;td&gt;-117.743378284&lt;/td&gt;
+      &lt;td&gt;Black&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;3&lt;/th&gt;
+      &lt;td&gt;Gunshot&lt;/td&gt;
+      &lt;td&gt;33.9704218958&lt;/td&gt;
+      &lt;td&gt;-118.298415884&lt;/td&gt;
+      &lt;td&gt;Black&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;4&lt;/th&gt;
+      &lt;td&gt;Gunshot&lt;/td&gt;
+      &lt;td&gt;None&lt;/td&gt;
+      &lt;td&gt;None&lt;/td&gt;
+      &lt;td&gt;Black&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;5&lt;/th&gt;
+      &lt;td&gt;Other&lt;/td&gt;
+      &lt;td&gt;33.9253019958&lt;/td&gt;
+      &lt;td&gt;-118.214549784&lt;/td&gt;
+      &lt;td&gt;Black&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;6&lt;/th&gt;
+      &lt;td&gt;Stabbing&lt;/td&gt;
+      &lt;td&gt;34.0293628958&lt;/td&gt;
+      &lt;td&gt;-118.239681284&lt;/td&gt;
+      &lt;td&gt;Latino&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;...&lt;/th&gt;
+      &lt;td&gt;...&lt;/td&gt;
+      &lt;td&gt;...&lt;/td&gt;
+      &lt;td&gt;...&lt;/td&gt;
+      &lt;td&gt;...&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;466&lt;/th&gt;
+      &lt;td&gt;Gunshot&lt;/td&gt;
+      &lt;td&gt;None&lt;/td&gt;
+      &lt;td&gt;None&lt;/td&gt;
+      &lt;td&gt;Asian&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;467&lt;/th&gt;
+      &lt;td&gt;Gunshot&lt;/td&gt;
+      &lt;td&gt;None&lt;/td&gt;
+      &lt;td&gt;None&lt;/td&gt;
+      &lt;td&gt;Asian&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;468&lt;/th&gt;
+      &lt;td&gt;Other&lt;/td&gt;
+      &lt;td&gt;34.0241573958&lt;/td&gt;
+      &lt;td&gt;-118.259306384&lt;/td&gt;
+      &lt;td&gt;Black&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;469&lt;/th&gt;
+      &lt;td&gt;Other&lt;/td&gt;
+      &lt;td&gt;None&lt;/td&gt;
+      &lt;td&gt;None&lt;/td&gt;
+      &lt;td&gt;Black&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;470&lt;/th&gt;
+      &lt;td&gt;Blunt force&lt;/td&gt;
+      &lt;td&gt;33.9334588958&lt;/td&gt;
+      &lt;td&gt;-118.206705784&lt;/td&gt;
+      &lt;td&gt;Latino&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;453 rows × 4 columns&lt;/p&gt;
+&lt;/div&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from plotnine import *
+(ggplot(df1) + 
+  aes(x=&#39;brace&#39;, fill=&#39;causes&#39;) +
+  geom_bar() +
+  labs(x = &amp;quot;Cause of Death by Race&amp;quot;, y = &amp;quot;Count&amp;quot;, fill = &amp;quot;Official Cause of Death&amp;quot;))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://giabarboza>.github.io/uploads/Final%20web%20scrap%20medium_files/Final%20web%20scrap%20medium_20_0.png&#34; alt=&#34;png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;From the chart above, it is apparent that Black and Latino children are more likely to be killed by gun violence.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;df_complete = df.dropna(subset=[&#39;x&#39;, &#39;y&#39;])
+df_complete[&#39;y&#39;] = pd.to_numeric(df_complete[&#39;y&#39;], errors=&#39;coerce&#39;)
+df_complete[&#39;x&#39;] = pd.to_numeric(df_complete[&#39;x&#39;], errors=&#39;coerce&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import geopandas as gpd
+from geopandas import GeoDataFrame
+from shapely.geometry import Point
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;shape=gpd.read_file(&#39;/Users/giabarboza/Downloads/l.a. county neighborhood (v5).shp&#39;)
+geometry = [Point(xy) for xy in zip(df_complete.y, df_complete.x)]
+#df_complete = df_complete.drop([&#39;x&#39;, &#39;y&#39;], axis=1)
+crs = {&#39;init&#39;: &#39;epsg:4326&#39;}
+gdf = GeoDataFrame(df_complete, crs=crs, geometry=geometry)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;/Users/giabarboza/.pyenv/versions/3.5.4/lib/python3.5/site-packages/pyproj/crs/crs.py:53: FutureWarning: &#39;+init=&amp;lt;authority&amp;gt;:&amp;lt;code&amp;gt;&#39; syntax is deprecated. &#39;&amp;lt;authority&amp;gt;:&amp;lt;code&amp;gt;&#39; is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
+  return _prepare_from_string(&amp;quot; &amp;quot;.join(pjargs))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import matplotlib
+
+import matplotlib.dates as mdates
+from matplotlib.ticker import StrMethodFormatter
+import matplotlib.pyplot as plt
+
+import seaborn as sns
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import os
+
+from mpl_toolkits.basemap import Basemap
+
+fig = plt.figure(figsize=(9, 5))
+
+#Let&#39;s create a map centered over Los Angeles, CA (34.0522° N, 118.2437° W) and extending 10 degrees W-E and 5 degrees N-S
+my_coords = [34.587234,-118.126193]
+
+map = Basemap(projection=&#39;merc&#39;,llcrnrlon=-121.,llcrnrlat=33.,urcrnrlon=-116.,urcrnrlat=35.,resolution=&#39;i&#39;) # projection, lat/lon extents and resolution of polygons to draw
+# resolutions: c - crude, l - low, i - intermediate, h - high, f - full
+
+map.drawcoastlines()
+map.drawstates()
+map.drawcountries()
+map.drawlsmask(land_color=&#39;Linen&#39;, ocean_color=&#39;#CCFFFF&#39;) # can use HTML names or codes for colors
+map.drawcounties() # you can even add counties (and other shapefiles!)
+map.drawmapboundary()
+
+# Plot the data
+mxy = map(gdf[&amp;quot;y&amp;quot;].tolist(), gdf[&amp;quot;x&amp;quot;].tolist())
+map.scatter(mxy[0], mxy[1], s=3, c=&amp;quot;#1292db&amp;quot;, lw=4, alpha=1, zorder=5)
+
+x, y = map(my_coords[1], my_coords[0])
+zoom_scale = 1
+map.plot(x,y,marker=&#39;D&#39;,color=&#39;r&#39;, markersize=14)
+plt.text(x, y, &#39;Gabriel Fernandez&#39;)
+
+plt.title(&amp;quot;Child Homicide Locations (2000-2020)&amp;quot;)
+plt.savefig(&#39;gabriel_fernandez.png&#39;, format=&#39;png&#39;, dpi=500)
+plt.show() #draw map
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://giabarboza>.github.io/uploads/Final%20web%20scrap%20medium_files/Final%20web%20scrap%20medium_26_0.png&#34; alt=&#34;png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;f, ax = plt.subplots(1, figsize=(8, 6))
+f.patch.set_facecolor(&#39;xkcd:white&#39;)
+shape.plot(ax=ax, color=&#39;white&#39;,   edgecolor=&#39;gray&#39; , linewidth=.9)
+ax = gdf.plot(ax=ax,marker=&#39;o&#39;, color=&#39;r&#39;, markersize=4)
+sns.kdeplot(gdf[&#39;y&#39;], gdf[&#39;x&#39;], n_levels=5,  cmap=&amp;quot;Blues&amp;quot;, shade=False, shade_lowest=True, ax=ax)
+plt.axis(&#39;equal&#39;)
+
+plt.show()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://giabarboza>.github.io/uploads/Final%20web%20scrap%20medium_files/Final%20web%20scrap%20medium_27_0.png&#34; alt=&#34;png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;graph = sns.jointplot(x = &#39;y&#39;,y = &#39;x&#39;,data = gdf,kind = &#39;hex&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://giabarboza>.github.io/uploads/Final%20web%20scrap%20medium_files/Final%20web%20scrap%20medium_28_0.png&#34; alt=&#34;png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+&lt;p&gt;The maps above show the locations of child homicides acoss the county. The maps show a strong spatial clustering in the city of Los Angeles. The number of child homicides decreased over the years, however it is possible that we see an increase in child deaths due to maltreatment as a result of the COVID-19 outbreak. These data should be monitored so that preventive interventions can be targeted to the communities that are in most need.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
