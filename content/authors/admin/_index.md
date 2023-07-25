@@ -1,5 +1,5 @@
 ---
-# Display name  ddd
+# Display name
 title: Gia Elise Barboza-Salerno
 
 # Is this the primary user of the site?
