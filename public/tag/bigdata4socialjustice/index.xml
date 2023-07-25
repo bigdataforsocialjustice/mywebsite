@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>BigData4SocialJustice | Academic</title>
-    <link>https://giabarboza.github.io/tag/bigdata4socialjustice/</link>
-      <atom:link href="https://giabarboza.github.io/tag/bigdata4socialjustice/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://giabarboza&gt;.github.io/tag/bigdata4socialjustice/</link>
+      <atom:link href="https://giabarboza>.github.io/tag/bigdata4socialjustice/index.xml" rel="self" type="application/rss+xml" />
     <description>BigData4SocialJustice</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 12 May 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://giabarboza.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://giabarboza&gt;.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>BigData4SocialJustice</title>
-      <link>https://giabarboza.github.io/tag/bigdata4socialjustice/</link>
+      <link>https://giabarboza&gt;.github.io/tag/bigdata4socialjustice/</link>
     </image>
     
     <item>
       <title>Geocoding and Mapping Using ArcGIS Pro, Python and R</title>
-      <link>https://giabarboza.github.io/post/geocoding-with-arcgis/</link>
+      <link>https://giabarboza&gt;.github.io/post/geocoding-with-arcgis/</link>
       <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://giabarboza.github.io/post/geocoding-with-arcgis/</guid>
+      <guid>https://giabarboza&gt;.github.io/post/geocoding-with-arcgis/</guid>
       <description>&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
 &lt;p&gt;We often need to geocode our data so that it can be mapped. There are websites that offer ways to incorporate ArcGIS pro, R and Python but the forget some of the details needed to make everything work, which can be frustrating for a new user. So, here is one solution to quickly geocode thousands of records using the integration package.&lt;/p&gt;
 &lt;p&gt;The accessibility of this method is limited, you must have access to arcgis online. Thankfully I have an account through my university. Assuming that you have an account, you must tell ArcGIS Pro where your version of R is located and install the arcgisbinding package via the Options menu item in your ArcGIS Pro software (as shown below). Thankfully, this is straightforward.&lt;/p&gt;
@@ -92,9 +92,9 @@ leaflet(merged_geocoded_dat) %&amp;gt;%
     
     <item>
       <title>Mining the “Indian Child Welfare Act” (ICWA) using Harvard Law School’s Caselaw API</title>
-      <link>https://giabarboza.github.io/post/getting-started/</link>
+      <link>https://giabarboza&gt;.github.io/post/getting-started/</link>
       <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://giabarboza.github.io/post/getting-started/</guid>
+      <guid>https://giabarboza&gt;.github.io/post/getting-started/</guid>
       <description>&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
 &lt;p&gt;The United States government has a long and sordid history of separating children from their parents in this country. In the mid-1800s public and private agencies were routinely removing minor tribal citizens (hereafter “MTCs”) from their homes with the Federal Government’s consent. About 100 years later, a Congressional investigation revealed that between 25–35% of MTCs in the US were taken from families by state welfare agencies. The result was a gross disproportionality in the number of MTCs being removed from their homes and placed into foster care. More specifically, MTCs were 7–8 times more likely to be removed compared to white children with the vast majority placed in non — Tribal homes with white parents.&lt;/p&gt;
 &lt;p&gt;The overrepresentation of Native American children in our child welfare system has been attributed to the multiple systems of oppression that work in conjunction to harm communities of color. These systems are ignorant of tribal customs and refuse to acknowledge the benefits of prevailing cultural and social norms that characterize indigenous communities. In an acknowledgment of these facts and in response to the wholesale removal of children from indigenous households, in 1978 the US government enacted the “Indian Child Welfare Act” (ICWA). The ICWA (25 U.S.C. §1902) which was enacted by congress in accordance with its authority under the “Indian” commerce clause, has been described as a “monumental piece of legislation” that affects every Native American child born in the united states (Fletcher, 2007). Nevertheless, Native American children continue to be over-involved in the child welfare system at rates that are incongruent with their share of the population. In South Dakota, for example, available data from 2014–2018 show that Native American children remain disproportionately overrepresented in the child welfare system compared to other groups (see figure below). Importantly, 9 in 10 children are substantiated for neglect, which is defined as a parent or caregiver’s inability to meet a child’s basic needs. As I have previously noted elsewhere, child neglect and poverty are a tautology in this country.&lt;/p&gt;
@@ -159,7 +159,7 @@ df &amp;lt;- df[complete.cases(df), ]
 &lt;p&gt;The wordcloud2 library was used to create the following wordcloud on the term document matrix after the data were cleaned.&lt;/p&gt;
 &lt;p&gt;As shown by the wordcloud above, several words stand out in addition to the words one would expect (for example “child” and “indian”). For example, abuse, adoption, transfer, health, neglect and expert might be subjects worthy of further investigation. Once the data are downloaded in R, we were able to identify the case law that contains these words to drill down further into the circumstances of each case. We also applied Latent Dirichlet Allocation modeling to the corpus of cases to elucidate categories of ICWA caselaw. Our results are available online.&lt;/p&gt;
 &lt;p&gt;
-  &lt;i class=&#34;fas fa-download  pr-1 fa-fw&#34;&gt;&lt;/i&gt;   &lt;a href=&#34;https://giabarboza.github.io/uploads/ICWA_USD_2021.pdf&#34; target=&#34;_blank&#34;&gt;Download the presentation &lt;/a&gt; we made at the University of South Dakota School of Law ICWA conference in Spring 2021.&lt;/p&gt;
+  &lt;i class=&#34;fas fa-download  pr-1 fa-fw&#34;&gt;&lt;/i&gt;   &lt;a href=&#34;https://giabarboza>.github.io/uploads/ICWA_USD_2021.pdf&#34; target=&#34;_blank&#34;&gt;Download the presentation &lt;/a&gt; we made at the University of South Dakota School of Law ICWA conference in Spring 2021.&lt;/p&gt;
 &lt;p&gt;In sum, we have used the Harvard Caselaw API in a way that provides researchers, lawyers and policymakers the ability to dig deeper into existing case law to better understand the issues that surround child welfare for the purpose of creating more effective and sensitive interventions. To download cases on a different subject merely change the search terms.&lt;/p&gt;
 &lt;p&gt;Using big data for social justice purposes.&lt;/p&gt;
 &lt;h2 id=&#34;more-information&#34;&gt;More Information&lt;/h2&gt;

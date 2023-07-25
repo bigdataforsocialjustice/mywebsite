@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Academic</title>
-    <link>https://giabarboza.github.io/</link>
-      <atom:link href="https://giabarboza.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://giabarboza&gt;.github.io/</link>
+      <atom:link href="https://giabarboza>.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Academic</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 05 Jan 2022 08:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://giabarboza.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://giabarboza&gt;.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Academic</title>
-      <link>https://giabarboza.github.io/</link>
+      <link>https://giabarboza&gt;.github.io/</link>
     </image>
     
     <item>
       <title>A Multivariate Conditional Autoregressive Model of the COVID-19, Opioid and Gun Violence Syndemic</title>
-      <link>https://giabarboza.github.io/talk/a-multivariate-conditional-autoregressive-model-of-the-covid-19-opioid-and-gun-violence-syndemic/</link>
+      <link>https://giabarboza&gt;.github.io/talk/a-multivariate-conditional-autoregressive-model-of-the-covid-19-opioid-and-gun-violence-syndemic/</link>
       <pubDate>Wed, 05 Jan 2022 08:00:00 +0000</pubDate>
-      <guid>https://giabarboza.github.io/talk/a-multivariate-conditional-autoregressive-model-of-the-covid-19-opioid-and-gun-violence-syndemic/</guid>
+      <guid>https://giabarboza&gt;.github.io/talk/a-multivariate-conditional-autoregressive-model-of-the-covid-19-opioid-and-gun-violence-syndemic/</guid>
       <description>&lt;p&gt;
-  &lt;i class=&#34;fas fa-download  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Download the &lt;a href=&#34;https://giabarboza.github.io/uploads/WSC_2022.pdf&#34; target=&#34;_blank&#34;&gt;presentation here&lt;/a&gt;.&lt;/p&gt;
+  &lt;i class=&#34;fas fa-download  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Download the &lt;a href=&#34;https://giabarboza>.github.io/uploads/WSC_2022.pdf&#34; target=&#34;_blank&#34;&gt;presentation here&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Re-purposing Juvenile Delinquency: Juvenile Justice Purpose Clauses and Incorrigible Kids</title>
-      <link>https://giabarboza.github.io/talk/re-purposing-juvenile-delinquency-juvenile-justice-purpose-clauses-and-incorrigible-kids/</link>
+      <link>https://giabarboza&gt;.github.io/talk/re-purposing-juvenile-delinquency-juvenile-justice-purpose-clauses-and-incorrigible-kids/</link>
       <pubDate>Wed, 05 Jan 2022 08:00:00 +0000</pubDate>
-      <guid>https://giabarboza.github.io/talk/re-purposing-juvenile-delinquency-juvenile-justice-purpose-clauses-and-incorrigible-kids/</guid>
+      <guid>https://giabarboza&gt;.github.io/talk/re-purposing-juvenile-delinquency-juvenile-justice-purpose-clauses-and-incorrigible-kids/</guid>
       <description>&lt;p&gt;
-  &lt;i class=&#34;fas fa-download  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Download the &lt;a href=&#34;https://giabarboza.github.io/uploads/Hawaii_presentation_2022.pdf&#34; target=&#34;_blank&#34;&gt;presentation here&lt;/a&gt;.&lt;/p&gt;
+  &lt;i class=&#34;fas fa-download  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Download the &lt;a href=&#34;https://giabarboza>.github.io/uploads/Hawaii_presentation_2022.pdf&#34; target=&#34;_blank&#34;&gt;presentation here&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Geocoding and Mapping Using ArcGIS Pro, Python and R</title>
-      <link>https://giabarboza.github.io/post/geocoding-with-arcgis/</link>
+      <link>https://giabarboza&gt;.github.io/post/geocoding-with-arcgis/</link>
       <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://giabarboza.github.io/post/geocoding-with-arcgis/</guid>
+      <guid>https://giabarboza&gt;.github.io/post/geocoding-with-arcgis/</guid>
       <description>&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
 &lt;p&gt;We often need to geocode our data so that it can be mapped. There are websites that offer ways to incorporate ArcGIS pro, R and Python but the forget some of the details needed to make everything work, which can be frustrating for a new user. So, here is one solution to quickly geocode thousands of records using the integration package.&lt;/p&gt;
 &lt;p&gt;The accessibility of this method is limited, you must have access to arcgis online. Thankfully I have an account through my university. Assuming that you have an account, you must tell ArcGIS Pro where your version of R is located and install the arcgisbinding package via the Options menu item in your ArcGIS Pro software (as shown below). Thankfully, this is straightforward.&lt;/p&gt;
@@ -112,9 +112,9 @@ leaflet(merged_geocoded_dat) %&amp;gt;%
     
     <item>
       <title>Mining the “Indian Child Welfare Act” (ICWA) using Harvard Law School’s Caselaw API</title>
-      <link>https://giabarboza.github.io/post/getting-started/</link>
+      <link>https://giabarboza&gt;.github.io/post/getting-started/</link>
       <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://giabarboza.github.io/post/getting-started/</guid>
+      <guid>https://giabarboza&gt;.github.io/post/getting-started/</guid>
       <description>&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
 &lt;p&gt;The United States government has a long and sordid history of separating children from their parents in this country. In the mid-1800s public and private agencies were routinely removing minor tribal citizens (hereafter “MTCs”) from their homes with the Federal Government’s consent. About 100 years later, a Congressional investigation revealed that between 25–35% of MTCs in the US were taken from families by state welfare agencies. The result was a gross disproportionality in the number of MTCs being removed from their homes and placed into foster care. More specifically, MTCs were 7–8 times more likely to be removed compared to white children with the vast majority placed in non — Tribal homes with white parents.&lt;/p&gt;
 &lt;p&gt;The overrepresentation of Native American children in our child welfare system has been attributed to the multiple systems of oppression that work in conjunction to harm communities of color. These systems are ignorant of tribal customs and refuse to acknowledge the benefits of prevailing cultural and social norms that characterize indigenous communities. In an acknowledgment of these facts and in response to the wholesale removal of children from indigenous households, in 1978 the US government enacted the “Indian Child Welfare Act” (ICWA). The ICWA (25 U.S.C. §1902) which was enacted by congress in accordance with its authority under the “Indian” commerce clause, has been described as a “monumental piece of legislation” that affects every Native American child born in the united states (Fletcher, 2007). Nevertheless, Native American children continue to be over-involved in the child welfare system at rates that are incongruent with their share of the population. In South Dakota, for example, available data from 2014–2018 show that Native American children remain disproportionately overrepresented in the child welfare system compared to other groups (see figure below). Importantly, 9 in 10 children are substantiated for neglect, which is defined as a parent or caregiver’s inability to meet a child’s basic needs. As I have previously noted elsewhere, child neglect and poverty are a tautology in this country.&lt;/p&gt;
@@ -179,7 +179,7 @@ df &amp;lt;- df[complete.cases(df), ]
 &lt;p&gt;The wordcloud2 library was used to create the following wordcloud on the term document matrix after the data were cleaned.&lt;/p&gt;
 &lt;p&gt;As shown by the wordcloud above, several words stand out in addition to the words one would expect (for example “child” and “indian”). For example, abuse, adoption, transfer, health, neglect and expert might be subjects worthy of further investigation. Once the data are downloaded in R, we were able to identify the case law that contains these words to drill down further into the circumstances of each case. We also applied Latent Dirichlet Allocation modeling to the corpus of cases to elucidate categories of ICWA caselaw. Our results are available online.&lt;/p&gt;
 &lt;p&gt;
-  &lt;i class=&#34;fas fa-download  pr-1 fa-fw&#34;&gt;&lt;/i&gt;   &lt;a href=&#34;https://giabarboza.github.io/uploads/ICWA_USD_2021.pdf&#34; target=&#34;_blank&#34;&gt;Download the presentation &lt;/a&gt; we made at the University of South Dakota School of Law ICWA conference in Spring 2021.&lt;/p&gt;
+  &lt;i class=&#34;fas fa-download  pr-1 fa-fw&#34;&gt;&lt;/i&gt;   &lt;a href=&#34;https://giabarboza>.github.io/uploads/ICWA_USD_2021.pdf&#34; target=&#34;_blank&#34;&gt;Download the presentation &lt;/a&gt; we made at the University of South Dakota School of Law ICWA conference in Spring 2021.&lt;/p&gt;
 &lt;p&gt;In sum, we have used the Harvard Caselaw API in a way that provides researchers, lawyers and policymakers the ability to dig deeper into existing case law to better understand the issues that surround child welfare for the purpose of creating more effective and sensitive interventions. To download cases on a different subject merely change the search terms.&lt;/p&gt;
 &lt;p&gt;Using big data for social justice purposes.&lt;/p&gt;
 &lt;h2 id=&#34;more-information&#34;&gt;More Information&lt;/h2&gt;
@@ -192,9 +192,9 @@ Caselaw Access Project, Harvard Law School. Available at &lt;a href=&#34;https:/
     
     <item>
       <title>Discrimination in the Targeting of Predatory Lending and Concomitant Foreclosures as Predictor of Historic Levels of Wealth Loss</title>
-      <link>https://giabarboza.github.io/project/example/</link>
+      <link>https://giabarboza&gt;.github.io/project/example/</link>
       <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>https://giabarboza.github.io/project/example/</guid>
+      <guid>https://giabarboza&gt;.github.io/project/example/</guid>
       <description>&lt;p&gt;Predatory lending and foreclosures exacerbated the racial gap in homeownership and led to historic
 wealth loss; past research lacked the key predatory characteristic and thus underestimates harm. With
 advances in data science, availability of big data, and appropriate statistical and geo-spatial models, the
@@ -266,9 +266,9 @@ levels of predatory lending origination practices never occurred.&lt;/p&gt;
     
     <item>
       <title>Text Mining Child Deaths from the LA Homicide Reports</title>
-      <link>https://giabarboza.github.io/project/child-deaths/final-web-scrap-medium/</link>
+      <link>https://giabarboza&gt;.github.io/project/child-deaths/final-web-scrap-medium/</link>
       <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>https://giabarboza.github.io/project/child-deaths/final-web-scrap-medium/</guid>
+      <guid>https://giabarboza&gt;.github.io/project/child-deaths/final-web-scrap-medium/</guid>
       <description>&lt;img src=&#34;https://github.com/elisegia/coroner_data/blob/master/Screen%20Shot%202020-04-13%20at%202.07.09%20PM.png?raw=true&#34; /&gt;
 &lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
 &lt;p&gt;The new documentary called &amp;ldquo;The Trials of Gabriel Fernandez&amp;rdquo; brings to the forefront the horrendous abuse that children in Los Angeles County and elsewhere endure at the hands of their caregivers. The documentary is a six-part miniseries about the 2013 murder of Gabriel Fernandez, an 8-year old Palmdale boy, that aired on Netflix February, 2020. In 2013, Gabriel Fernandez died in the neighborhood of LA county called Palmdale. For years, Gabriel was abused by his mother and her boyfriend. The abuse included being beaten, shot with a BB gun, smothered with pepper spray, made to wear girl’s clothes to school, forced to eat his own vomit, and locked in a cabinet with a sock stuffed in his mouth. His biological father was incarcerated previously. From 2003 – 2012 over 60 complaints were filed leading to 8 investigations by Child Protective Services. His mother and her boyfriend were given life sentences for his death. The social workers were charged with felony child abuse and falsifying public documents.&lt;/p&gt;
@@ -560,7 +560,7 @@ from src import calculate
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://giabarboza.github.io/uploads/Final%20web%20scrap%20medium_files/Final%20web%20scrap%20medium_14_0.png&#34; alt=&#34;png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://giabarboza>.github.io/uploads/Final%20web%20scrap%20medium_files/Final%20web%20scrap%20medium_14_0.png&#34; alt=&#34;png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;As the chart above shows, child homicides peaked in 2001 and an overall downward trend emerges over the twenty year period. The year 2020 only contains data up through April.&lt;/p&gt;
@@ -584,7 +584,7 @@ from src import calculate
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://giabarboza.github.io/uploads/Final%20web%20scrap%20medium_files/Final%20web%20scrap%20medium_16_0.png&#34; alt=&#34;png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://giabarboza>.github.io/uploads/Final%20web%20scrap%20medium_files/Final%20web%20scrap%20medium_16_0.png&#34; alt=&#34;png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;Long Beach, Inglewood and Compton have the most child homicides across the county. These 10 neighborhoods comprise about 1/4 of all child homicides. As we will see below, there are many neighborhoods that have had no child homicides for the whole 20 year period.&lt;/p&gt;
@@ -723,7 +723,7 @@ df1
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://giabarboza.github.io/uploads/Final%20web%20scrap%20medium_files/Final%20web%20scrap%20medium_20_0.png&#34; alt=&#34;png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://giabarboza>.github.io/uploads/Final%20web%20scrap%20medium_files/Final%20web%20scrap%20medium_20_0.png&#34; alt=&#34;png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;From the chart above, it is apparent that Black and Latino children are more likely to be killed by gun violence.&lt;/p&gt;
@@ -803,7 +803,7 @@ plt.show() #draw map
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://giabarboza.github.io/uploads/Final%20web%20scrap%20medium_files/Final%20web%20scrap%20medium_26_0.png&#34; alt=&#34;png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://giabarboza>.github.io/uploads/Final%20web%20scrap%20medium_files/Final%20web%20scrap%20medium_26_0.png&#34; alt=&#34;png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;f, ax = plt.subplots(1, figsize=(8, 6))
@@ -833,7 +833,7 @@ plt.show()
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://giabarboza.github.io/uploads/Final%20web%20scrap%20medium_files/Final%20web%20scrap%20medium_27_0.png&#34; alt=&#34;png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://giabarboza>.github.io/uploads/Final%20web%20scrap%20medium_files/Final%20web%20scrap%20medium_27_0.png&#34; alt=&#34;png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;graph = sns.jointplot(x = &#39;y&#39;,y = &#39;x&#39;,data = gdf,kind = &#39;hex&#39;)
@@ -856,7 +856,7 @@ plt.show()
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://giabarboza.github.io/uploads/Final%20web%20scrap%20medium_files/Final%20web%20scrap%20medium_28_0.png&#34; alt=&#34;png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://giabarboza>.github.io/uploads/Final%20web%20scrap%20medium_files/Final%20web%20scrap%20medium_28_0.png&#34; alt=&#34;png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
@@ -868,113 +868,113 @@ plt.show()
     
     <item>
       <title>A spatiotemporal analysis of the impact of COVID-19 on child abuse and neglect in the city of Los Angeles, California</title>
-      <link>https://giabarboza.github.io/publication/child_abuse_covid19/</link>
+      <link>https://giabarboza&gt;.github.io/publication/child_abuse_covid19/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://giabarboza.github.io/publication/child_abuse_covid19/</guid>
+      <guid>https://giabarboza&gt;.github.io/publication/child_abuse_covid19/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dual Trajectories of Parenting Self-efficacy and Depressive Symptoms in New, Postpartum Mothers and Socioemotional Adjustment in Early Childhood: A Growth Mixture Model</title>
-      <link>https://giabarboza.github.io/publication/2021-01-01_dual_trajectories_of/</link>
+      <link>https://giabarboza&gt;.github.io/publication/2021-01-01_dual_trajectories_of/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://giabarboza.github.io/publication/2021-01-01_dual_trajectories_of/</guid>
+      <guid>https://giabarboza&gt;.github.io/publication/2021-01-01_dual_trajectories_of/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Racial and Ethnic Diversity in the Social Ecology of Online Harassment and Cybervictimization: The Adolescent	extendash School Context</title>
-      <link>https://giabarboza.github.io/publication/2021-01-01_racial_and_ethnic_di/</link>
+      <link>https://giabarboza&gt;.github.io/publication/2021-01-01_racial_and_ethnic_di/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://giabarboza.github.io/publication/2021-01-01_racial_and_ethnic_di/</guid>
+      <guid>https://giabarboza&gt;.github.io/publication/2021-01-01_racial_and_ethnic_di/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Robust Stochastic Stability in Dynamic and Reactive Environments</title>
-      <link>https://giabarboza.github.io/publication/2021-01-01_robust_stochastic_/</link>
+      <link>https://giabarboza&gt;.github.io/publication/2021-01-01_robust_stochastic_/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://giabarboza.github.io/publication/2021-01-01_robust_stochastic_/</guid>
+      <guid>https://giabarboza&gt;.github.io/publication/2021-01-01_robust_stochastic_/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sexual Violence Prevalence</title>
-      <link>https://giabarboza.github.io/publication/sex_violence_prev/</link>
+      <link>https://giabarboza&gt;.github.io/publication/sex_violence_prev/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://giabarboza.github.io/publication/sex_violence_prev/</guid>
+      <guid>https://giabarboza&gt;.github.io/publication/sex_violence_prev/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The adolescent parent context and positive youth development in the ecology of cyberbullying. A social-ecological approach to cyberbullying</title>
-      <link>https://giabarboza.github.io/publication/adol_context_bully/</link>
+      <link>https://giabarboza&gt;.github.io/publication/adol_context_bully/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://giabarboza.github.io/publication/adol_context_bully/</guid>
+      <guid>https://giabarboza&gt;.github.io/publication/adol_context_bully/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Theory and Practice of Elder-Abuse Prevention</title>
-      <link>https://giabarboza.github.io/publication/elder_matx/</link>
+      <link>https://giabarboza&gt;.github.io/publication/elder_matx/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://giabarboza.github.io/publication/elder_matx/</guid>
+      <guid>https://giabarboza&gt;.github.io/publication/elder_matx/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Descriptive Study of Racial and Ethnic Differences of Drug Overdoses and Naloxone Administration in Pennsylvania</title>
-      <link>https://giabarboza.github.io/publication/2020-01-01_a_descriptive_study_/</link>
+      <link>https://giabarboza&gt;.github.io/publication/2020-01-01_a_descriptive_study_/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://giabarboza.github.io/publication/2020-01-01_a_descriptive_study_/</guid>
+      <guid>https://giabarboza&gt;.github.io/publication/2020-01-01_a_descriptive_study_/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Spatiotemporal Analysis of Heroin-Related Calls for Emergency Medical Services and Community-Health Centers in Boston, Massachusetts</title>
-      <link>https://giabarboza.github.io/publication/2020-01-01_a_spatiotemporal_a/</link>
+      <link>https://giabarboza&gt;.github.io/publication/2020-01-01_a_spatiotemporal_a/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://giabarboza.github.io/publication/2020-01-01_a_spatiotemporal_a/</guid>
+      <guid>https://giabarboza&gt;.github.io/publication/2020-01-01_a_spatiotemporal_a/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Child Maltreatment Data in the State of New Mexico across Space and Time</title>
-      <link>https://giabarboza.github.io/publication/2020-01-01_child_maltreatment_d/</link>
+      <link>https://giabarboza&gt;.github.io/publication/2020-01-01_child_maltreatment_d/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://giabarboza.github.io/publication/2020-01-01_child_maltreatment_d/</guid>
+      <guid>https://giabarboza&gt;.github.io/publication/2020-01-01_child_maltreatment_d/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cognitive Readiness to Parent, Stability and Change in Postpartum Parenting Stress and Social-Emotional Problems in Early Childhood: A Second Order Growth Curve Model</title>
-      <link>https://giabarboza.github.io/publication/2020-01-01_cognitive_readiness_/</link>
+      <link>https://giabarboza&gt;.github.io/publication/2020-01-01_cognitive_readiness_/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://giabarboza.github.io/publication/2020-01-01_cognitive_readiness_/</guid>
+      <guid>https://giabarboza&gt;.github.io/publication/2020-01-01_cognitive_readiness_/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Examining Spatial Regimes of Child Maltreatment Allegations in a Social Vulnerability Framework</title>
-      <link>https://giabarboza.github.io/publication/2020-01-01_examining_spatial_/</link>
+      <link>https://giabarboza&gt;.github.io/publication/2020-01-01_examining_spatial_/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://giabarboza.github.io/publication/2020-01-01_examining_spatial_/</guid>
+      <guid>https://giabarboza&gt;.github.io/publication/2020-01-01_examining_spatial_/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Variability and Stability in Child Maltreatment Risk across Time and Space and Its Association with Neighborhood Social &amp; Housing Vulnerability in New Mexico: A Bayesian Space-Time Model</title>
-      <link>https://giabarboza.github.io/publication/2020-01-01_variability_and_stab/</link>
+      <link>https://giabarboza&gt;.github.io/publication/2020-01-01_variability_and_stab/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://giabarboza.github.io/publication/2020-01-01_variability_and_stab/</guid>
+      <guid>https://giabarboza&gt;.github.io/publication/2020-01-01_variability_and_stab/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Slides</title>
-      <link>https://giabarboza.github.io/slides/incorrigible/</link>
+      <link>https://giabarboza&gt;.github.io/slides/incorrigible/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://giabarboza.github.io/slides/incorrigible/</guid>
+      <guid>https://giabarboza&gt;.github.io/slides/incorrigible/</guid>
       <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://owchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
@@ -1101,169 +1101,169 @@ $$&lt;/p&gt;
     
     <item>
       <title>Child Maltreatment, Delinquent Behavior, and School Factors as Predictors of Depressive Symptoms from Adolescence to Adulthood: A Growth Mixture Model</title>
-      <link>https://giabarboza.github.io/publication/child_mltx_delinq/</link>
+      <link>https://giabarboza&gt;.github.io/publication/child_mltx_delinq/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://giabarboza.github.io/publication/child_mltx_delinq/</guid>
+      <guid>https://giabarboza&gt;.github.io/publication/child_mltx_delinq/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Geography of Child Maltreatment: A Spatiotemporal Analysis Using Bayesian Hierarchical Analysis With Integrated Nested Laplace Approximation</title>
-      <link>https://giabarboza.github.io/publication/geog_of_child_matx/</link>
+      <link>https://giabarboza&gt;.github.io/publication/geog_of_child_matx/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://giabarboza.github.io/publication/geog_of_child_matx/</guid>
+      <guid>https://giabarboza&gt;.github.io/publication/geog_of_child_matx/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Secondary Spatial Analysis of Gun Violence near Boston Schools: A Public Health Approach</title>
-      <link>https://giabarboza.github.io/publication/2018-01-01_a_secondary_spatia/</link>
+      <link>https://giabarboza&gt;.github.io/publication/2018-01-01_a_secondary_spatia/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://giabarboza.github.io/publication/2018-01-01_a_secondary_spatia/</guid>
+      <guid>https://giabarboza&gt;.github.io/publication/2018-01-01_a_secondary_spatia/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Circumcision Is a Primary Preventive against HIV Infection: Critique of a Contrary Meta-Regression Analysis by Van Howe</title>
-      <link>https://giabarboza.github.io/publication/2018-01-01_circumcision_is_a_pr/</link>
+      <link>https://giabarboza&gt;.github.io/publication/2018-01-01_circumcision_is_a_pr/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://giabarboza.github.io/publication/2018-01-01_circumcision_is_a_pr/</guid>
+      <guid>https://giabarboza&gt;.github.io/publication/2018-01-01_circumcision_is_a_pr/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Child Maltreatment, School Bonds, and Adult Violence: A Serial Mediation Model</title>
-      <link>https://giabarboza.github.io/publication/2021-01-01_child_maltreatment/</link>
+      <link>https://giabarboza&gt;.github.io/publication/2021-01-01_child_maltreatment/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://giabarboza.github.io/publication/2021-01-01_child_maltreatment/</guid>
+      <guid>https://giabarboza&gt;.github.io/publication/2021-01-01_child_maltreatment/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Citizenship, Fear and Support for the Criminalization of Immigration: Contextualizing Mexican Americans&#39; Attitudes about the Role of Law Enforcement</title>
-      <link>https://giabarboza.github.io/publication/2017-01-01_citizenship_fear_an/</link>
+      <link>https://giabarboza&gt;.github.io/publication/2017-01-01_citizenship_fear_an/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://giabarboza.github.io/publication/2017-01-01_citizenship_fear_an/</guid>
+      <guid>https://giabarboza&gt;.github.io/publication/2017-01-01_citizenship_fear_an/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Longitudinal Growth of Post-Traumatic Stress and Depressive Symptoms Following a Child Maltreatment Allegation: An Examination of Violence Exposure, Family Risk and Placement Type</title>
-      <link>https://giabarboza.github.io/publication/2017-01-01_longitudinal_growth_/</link>
+      <link>https://giabarboza&gt;.github.io/publication/2017-01-01_longitudinal_growth_/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://giabarboza.github.io/publication/2017-01-01_longitudinal_growth_/</guid>
+      <guid>https://giabarboza&gt;.github.io/publication/2017-01-01_longitudinal_growth_/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Trajectories of Post-Traumatic Stress and Externalizing Psychopathology among Maltreated Foster Care Youth: A Parallel Process Latent Growth Curve Model</title>
-      <link>https://giabarboza.github.io/publication/2017-01-01_trajectories_of_post/</link>
+      <link>https://giabarboza&gt;.github.io/publication/2017-01-01_trajectories_of_post/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://giabarboza.github.io/publication/2017-01-01_trajectories_of_post/</guid>
+      <guid>https://giabarboza&gt;.github.io/publication/2017-01-01_trajectories_of_post/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Sequential Logit Model of Caretakers&#39; Decision to Vaccinate Children for the Human Papillomavirus Virus in the General Population</title>
-      <link>https://giabarboza.github.io/publication/2016-01-01_a_sequential_logit_m/</link>
+      <link>https://giabarboza&gt;.github.io/publication/2016-01-01_a_sequential_logit_m/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://giabarboza.github.io/publication/2016-01-01_a_sequential_logit_m/</guid>
+      <guid>https://giabarboza&gt;.github.io/publication/2016-01-01_a_sequential_logit_m/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Physical Victimization, Gender Identity and Suicide Risk among Transgender Men and Women</title>
-      <link>https://giabarboza.github.io/publication/2016-01-01_physical_victimizati/</link>
+      <link>https://giabarboza&gt;.github.io/publication/2016-01-01_physical_victimizati/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://giabarboza.github.io/publication/2016-01-01_physical_victimizati/</guid>
+      <guid>https://giabarboza&gt;.github.io/publication/2016-01-01_physical_victimizati/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Using Behavioral Risk Factor Data as a Surveillance Tool to Monitor the Prevalence of Initiation, Continuation and Completion of Human Papilloma Virus Vaccination in Children</title>
-      <link>https://giabarboza.github.io/publication/2016-01-01_using_behavioral_r/</link>
+      <link>https://giabarboza&gt;.github.io/publication/2016-01-01_using_behavioral_r/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://giabarboza.github.io/publication/2016-01-01_using_behavioral_r/</guid>
+      <guid>https://giabarboza&gt;.github.io/publication/2016-01-01_using_behavioral_r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Association between School Exclusion, Delinquency and Subtypes of Cyber- and F2F-victimizations: Identifying and Predicting Risk Profiles and Subtypes Using Latent Class Analysis</title>
-      <link>https://giabarboza.github.io/publication/2015-01-01_the_association_betw/</link>
+      <link>https://giabarboza&gt;.github.io/publication/2015-01-01_the_association_betw/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://giabarboza.github.io/publication/2015-01-01_the_association_betw/</guid>
+      <guid>https://giabarboza&gt;.github.io/publication/2015-01-01_the_association_betw/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Group Consciousness, Identity and Perceptions of Unfair Police Treatment among Mexican Americans</title>
-      <link>https://giabarboza.github.io/publication/2012-01-01_group_consciousness/</link>
+      <link>https://giabarboza&gt;.github.io/publication/2012-01-01_group_consciousness/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
-      <guid>https://giabarboza.github.io/publication/2012-01-01_group_consciousness/</guid>
+      <guid>https://giabarboza&gt;.github.io/publication/2012-01-01_group_consciousness/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Physical Abuse of Older Adults in Nursing Homes: A Random Sample Survey of Adults With an Elderly Family Member in a Nursing Home</title>
-      <link>https://giabarboza.github.io/publication/2012-01-01_physical_abuse_o/</link>
+      <link>https://giabarboza&gt;.github.io/publication/2012-01-01_physical_abuse_o/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
-      <guid>https://giabarboza.github.io/publication/2012-01-01_physical_abuse_o/</guid>
+      <guid>https://giabarboza&gt;.github.io/publication/2012-01-01_physical_abuse_o/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Elder Abuse in Nursing Homes: An Ecological Perspective</title>
-      <link>https://giabarboza.github.io/publication/2011-01-01_elder_abuse_in_/</link>
+      <link>https://giabarboza&gt;.github.io/publication/2011-01-01_elder_abuse_in_/</link>
       <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>https://giabarboza.github.io/publication/2011-01-01_elder_abuse_in_/</guid>
+      <guid>https://giabarboza&gt;.github.io/publication/2011-01-01_elder_abuse_in_/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Neglect of Older Adults in Michigan Nursing Homes</title>
-      <link>https://giabarboza.github.io/publication/2010-01-01_neglect_of_older_a/</link>
+      <link>https://giabarboza&gt;.github.io/publication/2010-01-01_neglect_of_older_a/</link>
       <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
-      <guid>https://giabarboza.github.io/publication/2010-01-01_neglect_of_older_a/</guid>
+      <guid>https://giabarboza&gt;.github.io/publication/2010-01-01_neglect_of_older_a/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Family Members&#39; Reports of Abuse in Michigan Nursing Homes</title>
-      <link>https://giabarboza.github.io/publication/2009-01-01_family_members_/</link>
+      <link>https://giabarboza&gt;.github.io/publication/2009-01-01_family_members_/</link>
       <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
-      <guid>https://giabarboza.github.io/publication/2009-01-01_family_members_/</guid>
+      <guid>https://giabarboza&gt;.github.io/publication/2009-01-01_family_members_/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Family Members&#39; Reports of Abuse in Michigan Nursing Homes</title>
-      <link>https://giabarboza.github.io/recent-publications/2009-01-01_family_members_/</link>
+      <link>https://giabarboza&gt;.github.io/recent-publications/2009-01-01_family_members_/</link>
       <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
-      <guid>https://giabarboza.github.io/recent-publications/2009-01-01_family_members_/</guid>
+      <guid>https://giabarboza&gt;.github.io/recent-publications/2009-01-01_family_members_/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Individual Characteristics and the Multiple Contexts of Adolescent Bullying: An Ecological Perspective</title>
-      <link>https://giabarboza.github.io/publication/2009-01-01_individual_charact/</link>
+      <link>https://giabarboza&gt;.github.io/publication/2009-01-01_individual_charact/</link>
       <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
-      <guid>https://giabarboza.github.io/publication/2009-01-01_individual_charact/</guid>
+      <guid>https://giabarboza&gt;.github.io/publication/2009-01-01_individual_charact/</guid>
       <description></description>
     </item>
     
     <item>
       <title>NEWSPAPERS&#39; FRAMING OF ELDER ABUSE: IT&#39;S NOT A FAMILY AFFAIR</title>
-      <link>https://giabarboza.github.io/publication/2999-01-01_newspaperfsra/</link>
+      <link>https://giabarboza&gt;.github.io/publication/2999-01-01_newspaperfsra/</link>
       <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
-      <guid>https://giabarboza.github.io/publication/2999-01-01_newspaperfsra/</guid>
+      <guid>https://giabarboza&gt;.github.io/publication/2999-01-01_newspaperfsra/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://giabarboza.github.io/admin/config.yml</link>
+      <link>https://giabarboza&gt;.github.io/admin/config.yml</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://giabarboza.github.io/admin/config.yml</guid>
+      <guid>https://giabarboza&gt;.github.io/admin/config.yml</guid>
       <description></description>
     </item>
     

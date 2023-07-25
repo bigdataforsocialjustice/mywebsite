@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>mapping | Academic</title>
-    <link>https://giabarboza.github.io/tag/mapping/</link>
-      <atom:link href="https://giabarboza.github.io/tag/mapping/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://giabarboza&gt;.github.io/tag/mapping/</link>
+      <atom:link href="https://giabarboza>.github.io/tag/mapping/index.xml" rel="self" type="application/rss+xml" />
     <description>mapping</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 27 Apr 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://giabarboza.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://giabarboza&gt;.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>mapping</title>
-      <link>https://giabarboza.github.io/tag/mapping/</link>
+      <link>https://giabarboza&gt;.github.io/tag/mapping/</link>
     </image>
     
     <item>
       <title>Text Mining Child Deaths from the LA Homicide Reports</title>
-      <link>https://giabarboza.github.io/project/child-deaths/final-web-scrap-medium/</link>
+      <link>https://giabarboza&gt;.github.io/project/child-deaths/final-web-scrap-medium/</link>
       <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>https://giabarboza.github.io/project/child-deaths/final-web-scrap-medium/</guid>
+      <guid>https://giabarboza&gt;.github.io/project/child-deaths/final-web-scrap-medium/</guid>
       <description>&lt;img src=&#34;https://github.com/elisegia/coroner_data/blob/master/Screen%20Shot%202020-04-13%20at%202.07.09%20PM.png?raw=true&#34; /&gt;
 &lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
 &lt;p&gt;The new documentary called &amp;ldquo;The Trials of Gabriel Fernandez&amp;rdquo; brings to the forefront the horrendous abuse that children in Los Angeles County and elsewhere endure at the hands of their caregivers. The documentary is a six-part miniseries about the 2013 murder of Gabriel Fernandez, an 8-year old Palmdale boy, that aired on Netflix February, 2020. In 2013, Gabriel Fernandez died in the neighborhood of LA county called Palmdale. For years, Gabriel was abused by his mother and her boyfriend. The abuse included being beaten, shot with a BB gun, smothered with pepper spray, made to wear girl’s clothes to school, forced to eat his own vomit, and locked in a cabinet with a sock stuffed in his mouth. His biological father was incarcerated previously. From 2003 – 2012 over 60 complaints were filed leading to 8 investigations by Child Protective Services. His mother and her boyfriend were given life sentences for his death. The social workers were charged with felony child abuse and falsifying public documents.&lt;/p&gt;
@@ -308,7 +308,7 @@ from src import calculate
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://giabarboza.github.io/uploads/Final%20web%20scrap%20medium_files/Final%20web%20scrap%20medium_14_0.png&#34; alt=&#34;png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://giabarboza>.github.io/uploads/Final%20web%20scrap%20medium_files/Final%20web%20scrap%20medium_14_0.png&#34; alt=&#34;png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;As the chart above shows, child homicides peaked in 2001 and an overall downward trend emerges over the twenty year period. The year 2020 only contains data up through April.&lt;/p&gt;
@@ -332,7 +332,7 @@ from src import calculate
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://giabarboza.github.io/uploads/Final%20web%20scrap%20medium_files/Final%20web%20scrap%20medium_16_0.png&#34; alt=&#34;png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://giabarboza>.github.io/uploads/Final%20web%20scrap%20medium_files/Final%20web%20scrap%20medium_16_0.png&#34; alt=&#34;png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;Long Beach, Inglewood and Compton have the most child homicides across the county. These 10 neighborhoods comprise about 1/4 of all child homicides. As we will see below, there are many neighborhoods that have had no child homicides for the whole 20 year period.&lt;/p&gt;
@@ -471,7 +471,7 @@ df1
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://giabarboza.github.io/uploads/Final%20web%20scrap%20medium_files/Final%20web%20scrap%20medium_20_0.png&#34; alt=&#34;png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://giabarboza>.github.io/uploads/Final%20web%20scrap%20medium_files/Final%20web%20scrap%20medium_20_0.png&#34; alt=&#34;png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;From the chart above, it is apparent that Black and Latino children are more likely to be killed by gun violence.&lt;/p&gt;
@@ -551,7 +551,7 @@ plt.show() #draw map
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://giabarboza.github.io/uploads/Final%20web%20scrap%20medium_files/Final%20web%20scrap%20medium_26_0.png&#34; alt=&#34;png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://giabarboza>.github.io/uploads/Final%20web%20scrap%20medium_files/Final%20web%20scrap%20medium_26_0.png&#34; alt=&#34;png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;f, ax = plt.subplots(1, figsize=(8, 6))
@@ -581,7 +581,7 @@ plt.show()
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://giabarboza.github.io/uploads/Final%20web%20scrap%20medium_files/Final%20web%20scrap%20medium_27_0.png&#34; alt=&#34;png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://giabarboza>.github.io/uploads/Final%20web%20scrap%20medium_files/Final%20web%20scrap%20medium_27_0.png&#34; alt=&#34;png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;graph = sns.jointplot(x = &#39;y&#39;,y = &#39;x&#39;,data = gdf,kind = &#39;hex&#39;)
@@ -604,7 +604,7 @@ plt.show()
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://giabarboza.github.io/uploads/Final%20web%20scrap%20medium_files/Final%20web%20scrap%20medium_28_0.png&#34; alt=&#34;png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://giabarboza>.github.io/uploads/Final%20web%20scrap%20medium_files/Final%20web%20scrap%20medium_28_0.png&#34; alt=&#34;png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
