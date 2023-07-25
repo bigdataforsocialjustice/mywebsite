@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Geocoding | Academic</title>
-    <link>https://giabarboza&gt;.github.io/category/geocoding/</link>
-      <atom:link href="https://giabarboza>.github.io/category/geocoding/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://giabarboza.github.io/category/geocoding/</link>
+      <atom:link href="https://giabarboza.github.io/category/geocoding/index.xml" rel="self" type="application/rss+xml" />
     <description>Geocoding</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 12 May 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://giabarboza&gt;.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://giabarboza.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Geocoding</title>
-      <link>https://giabarboza&gt;.github.io/category/geocoding/</link>
+      <link>https://giabarboza.github.io/category/geocoding/</link>
     </image>
     
     <item>
       <title>Geocoding and Mapping Using ArcGIS Pro, Python and R</title>
-      <link>https://giabarboza&gt;.github.io/post/geocoding-with-arcgis/</link>
+      <link>https://giabarboza.github.io/post/geocoding-with-arcgis/</link>
       <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://giabarboza&gt;.github.io/post/geocoding-with-arcgis/</guid>
+      <guid>https://giabarboza.github.io/post/geocoding-with-arcgis/</guid>
       <description>&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
 &lt;p&gt;We often need to geocode our data so that it can be mapped. There are websites that offer ways to incorporate ArcGIS pro, R and Python but the forget some of the details needed to make everything work, which can be frustrating for a new user. So, here is one solution to quickly geocode thousands of records using the integration package.&lt;/p&gt;
 &lt;p&gt;The accessibility of this method is limited, you must have access to arcgis online. Thankfully I have an account through my university. Assuming that you have an account, you must tell ArcGIS Pro where your version of R is located and install the arcgisbinding package via the Options menu item in your ArcGIS Pro software (as shown below). Thankfully, this is straightforward.&lt;/p&gt;

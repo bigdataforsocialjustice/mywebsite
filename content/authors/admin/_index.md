@@ -6,12 +6,12 @@ title: Gia Elise Barboza-Salerno
 superuser: true
 
 # Role/position/tagline
-role: Assistant Professor, School of Public Affairs
+role: Assistant Professor, Colleges of Public Health & Social Work
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: University of Colorado Colorado Springs
-  url: https://www.uccs.edu/
+- name: The Ohio State University
+  url: https://www.osu.edu/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include spatial analysis for violence prevention, longitudinal analysis for positive development and using big data for social justice.
@@ -79,8 +79,14 @@ email: ""
 highlight_name: true
 ---
 
-Gia Elise Barboza-Salerno is an Assistant Professor in the School of Public Affairs at the University of Colorado Colorado Springs. She currently serves as the Statistical Associate Editor for the journal Child Maltreatment. Dr. Barboza's scholarship focuses on the manifestation of violence across the lifespan from childhood to old age. Her work explores the multiple contextual influences of risk, including trauma, externalizing behaviors and substance abuse, on manifestations of interpersonal violence (e.g., domestic abuse, adolescent bullying), self-harm (e.g., suicide), and neglect in vulnerable populations (children, adolescents, LGBT individuals and the elderly). Dr. Barboza is also an attorney who has worked in the courts as an advocate assisting domestic violence victims navigate the legal and criminal justice system.
+My name is Dr. Gia Elise Barboza-Salerno, and I am honored to be an Assistant Professor in the Colleges of Public Health and Social Work at the Ohio State University. My scholarship focuses on the manifestation of violence across the lifespan from childhood to old age. Overall, my work aims to explore the multiple contextual influences of risk (e.g., traumatic experiences, sexual risk-taking behavior) and protective factors (e.g., family support, social networks) associated with adverse child experiences including criminal justice and child welfare involvement focusing on vulnerable youth populations (i.e., children of color, LGBTQIA+, older individuals, adolescents). 
 
-Dr. Barboza's research utilizes big data, nationally representative datasets, quasi-experimental and longitudinal research designs and methodologies, such as Growth Mixture Modeling, Parallel Process Modeling, and Bayesian Space-Time techniques. Her work has recently appeared in Applied Spacial Analysis and Policy, Child Maltreatment, The Journal of Interpersonal Violence, and The Journal of Urban Health.
+My past research experiences as Director of Research for the Dudley Street Neighborhood Initiative have afforded me with the expertise and training needed to ground this work in community and to bridge research with praxis using innovative and advanced statistical methods. My research goal is always to reframe existing narratives in ways that empower communities of color and low-income communities. To do so, I have analyzed large longitudinal, nationally representative datasets using Network Analysis, Growth Mixture Modeling, Parallel Process Modeling, Serial Mediation Models, Moderated Mediation Models, Geostatistical Modeling and Bayesian Space-Time Modeling. My work has been funded by internal university-level research grants, as well as multiple foundation grants from the United Way and State Street. 
+
+In 2020, I was co-PI on a grant from the National Science Foundation to estimate the costs of policy interventions via geospatial data aggregation and analysis, identifying local vulnerability to unintended consequences of policy interventions and assessing the disparities of these impacts across racial and socioeconomic divides. The paper entitled “A spatiotemporal analysis of the impact of COVID-19 on child abuse and neglect in the city of Los Angeles, California” published in the International Journal of Child Abuse and Neglect was a product of that funding. 
+
+At present, I am grateful to serve as the Statistical Associate Editor for the journal Child Maltreatment. I became an attorney in May 2018 after graduating from the Michigan State School of Law. That same year I started volunteering in the Domestic Violence Court in Portland, Maine to assist domestic violence victims navigate the legal and criminal justice system. 
+
+My motivation comes from my beautiful wife and our seven children, who have provided me with grace, compassion and healing.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
